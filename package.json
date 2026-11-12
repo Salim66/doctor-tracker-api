@@ -6,8 +6,12 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
+    "build": "echo No build step required",
     "create-admin": "node src/scripts/createAdmin.js",
     "seed": "node src/scripts/seed.js"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "keywords": [],
   "author": "",
